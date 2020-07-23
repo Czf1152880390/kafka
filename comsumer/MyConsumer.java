@@ -1,4 +1,4 @@
-package com.tmsb.kafka;
+package com.tmsb.kafka.comsumer;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

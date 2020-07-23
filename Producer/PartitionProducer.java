@@ -1,5 +1,6 @@
-package com.tmsb.kafka;
+package com.tmsb.kafka.Producer;
 
+import com.tmsb.kafka.partitioner.MyPartitioner;
 import org.apache.kafka.clients.producer.*;
 
 import java.util.Properties;

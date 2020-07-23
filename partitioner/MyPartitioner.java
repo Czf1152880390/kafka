@@ -1,10 +1,8 @@
-package com.tmsb.kafka;
+package com.tmsb.kafka.partitioner;
 
 import org.apache.kafka.clients.producer.Partitioner;
 import org.apache.kafka.common.Cluster;
-import org.apache.kafka.common.PartitionInfo;
 
-import java.util.List;
 import java.util.Map;
 
 /**

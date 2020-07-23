@@ -1,4 +1,4 @@
-package com.tmsb.kafka;
+package com.tmsb.kafka.Producer;
 
 import org.apache.kafka.clients.producer.*;
 
