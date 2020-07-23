@@ -30,7 +30,7 @@ public class Producer {
         KafkaProducer<String, String> producer = new KafkaProducer<>(props);
         for (int i = 0; i < 30; i++) {
 
-            producer.send(new ProducerRecord<>("TEST", "atguigu---"+i));
+            producer.send(new ProducerRecord<>("TEST", "guigu","guigu---"+i));
         }
         producer.close();
 
